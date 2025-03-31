@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: aquamarine;
+    background-color: rgb(144, 170, 209);
     font-family: "Bebas Neue", sans-serif;
     margin: 5%;
     line-height: 1.6;
@@ -62,7 +62,7 @@ header h2{
     overflow: hidden;
     display: inline-block;
     vertical-align: middle;
-    border: 7px solid #e7b352;
+    border: 7px solid #eaa7ec;
 
 
 }
@@ -77,4 +77,43 @@ header h2{
     vertical-align: middle;
     margin-left: 1%;
     text-shadow: 0px 0px 20px rgba(0,0,0,0,5);
+}
+h3{
+    font-size: 1.4em;
+    margin-top: 20px;
+    color: rgb(190, 112, 201);
+}
+section{
+    background-color: rgb(243, 238, 230);
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0,1);
+}
+section hr{
+    border: 0;
+    height: 2px;
+    background: #1dbbbb;
+    margin: 10px 0;
+}
+ul{
+    list-style: none;
+
+}
+ul li{
+    padding: 5px 0;
+}
+i{
+    color: #eaa7ec;
+    margin-right: 8px;
+}
+address p{
+    margin: 5px 0;
+}
+address a{
+    color: #eaa7ec;
+    text-decoration: none;
+}
+article{
+    margin-bottom: 15px;
 }
